@@ -1,0 +1,52 @@
+@import "./scss/cores";
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.titulo {
+    h2 {
+        font-size: 1.5rem;
+        color: #222222;
+        font-family: Roboto, "Helvetica Neue", sans-serif;
+        font-weight: 400;
+    }
+}
+
+.cards-div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.card {
+    img {
+        width: 20rem;
+        height: 30rem;
+        background-color: ;
+    }
+}
+
+.subtitulo {
+    color: $gold;
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+    font-weight: 400;
+    font-size: 1.8rem;
+}
+
+.textos {
+    color: $grey;
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+.nome-clube {
+    color: $grey;
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+}
