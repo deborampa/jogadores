@@ -14,8 +14,8 @@ fetch("https://fifagama.herokuapp.com/fifa19/0/10")
                 <p class="subtitulo">Valor:</p>
                 <p class="textos">${jogador.Value}</p>
 
-                <img src="${jogador.Photo}"/>
-                <img src="${jogador["Club Logo"]}"/>
+                <img class="jogador-foto" src="${jogador.Photo}"/>
+                <img class="logo-clube" src="${jogador["Club Logo"]}"/>
                 <p class="nome-clube">${jogador.Club}</p>
             </div>
             `
